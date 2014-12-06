@@ -1,5 +1,5 @@
 Author: Jordan Micah Bennett
-Topic: A flavourful music/video archiver, allowing users the ability to 'soulify' content (via google chrome)
+Topic: A flavourful music/video archiver micro-social-network, allowing users the ability to 'soulify' content (via google chrome)
 from any (okay most) music/video website, to their "soulify" profile @ http://soulify.tk which is an alias for http://soulify.honor.es
 
 Usage: 

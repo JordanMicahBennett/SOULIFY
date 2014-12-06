@@ -1,0 +1,17 @@
+{
+  "name": "soulify 1.0.0.0'",
+  "description": "Soulify the universe!",
+  "version": "1.0.0.0",
+  "manifest_version": 2,
+  "permissions": ["contextMenus"],
+  "background": 
+		  {
+			"scripts": ["data/js/rightClick.js"]
+		  },
+  "icons": 
+		  { 
+			  "16": "data/images/soulify.icon.png",
+			  "48": "data/images/soulify.icon.png",
+			  "128": "data/images/soulify.icon.png" 
+		  }
+}

@@ -10,6 +10,10 @@ LIVE?
 Indeed, soulify is live via http://www.soulify.tk/ (alias for http://www.soulify.honor.es/) 
 
 
+
+
+![Alt text](https://raw.githubusercontent.com/JordanMicahBennett/SOULIFY/master/data/images/captures/capture%200.png "default page")
+
 WHAT CAN ONE DO WITH SOULIFY?
 =============================
   a.Using google chrome, after signing up, one may 'soulify' videos via most sites, to one's profile of music categories of       archives amidst soulify.tk.

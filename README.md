@@ -31,4 +31,4 @@ WHAT CAN ONE DO WITH SOULIFY?
 
 AUTHOR PORTFOLIO
 ============================================
-http://jordanbennett.tk/
+http://jordanbennett.yzi.me/

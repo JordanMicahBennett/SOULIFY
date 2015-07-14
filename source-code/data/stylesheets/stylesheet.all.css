@@ -1,7 +1,6 @@
 /*Author: Jordan Micah Bennett NetCentric Soulify 2014*/
 /* Desktops and laptops ----------- */
-@media only screen and (min-width : 1224px) 
-{
+
 /*All elements are widgets*/
 html
 {
@@ -1413,4 +1412,3 @@ html
 			height : 230;
 		}
 		/*nice_magenta_config : 513252*/
-}

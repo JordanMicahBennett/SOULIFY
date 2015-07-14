@@ -11,11 +11,11 @@ Indeed, soulify is live via http://www.soulify.tk/ (alias for http://www.soulify
 
 
 =============================
-![Alt text](https://raw.githubusercontent.com/JordanMicahBennett/SOULIFY/master/data/images/captures/capture%200.png "default page")
+![Alt text](https://raw.githubusercontent.com/JordanMicahBennett/SOULIFY/master/data/images/captures/0.png "default page")
 =============================
-![Alt text](https://raw.githubusercontent.com/JordanMicahBennett/SOULIFY/master/data/images/captures/capture%201.png "default page")
+![Alt text](https://raw.githubusercontent.com/JordanMicahBennett/SOULIFY/master/data/images/captures/1.png "default page")
 =============================
-![Alt text](https://raw.githubusercontent.com/JordanMicahBennett/SOULIFY/master/data/images/captures/capture%202.png "default page")
+![Alt text](https://raw.githubusercontent.com/JordanMicahBennett/SOULIFY/master/data/images/captures/2.png "default page")
 =============================
 
 

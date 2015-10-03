@@ -457,7 +457,7 @@
 	{
 		//welcome widget titles
 			//establish variable to hold title
-			var welcomeWidgetTitleZero = "Soul republic browser extension 1.0.0.0\n(a)Go to tools -> extensions in chrome.\nEnable developer mode (select checkbox [Developer mode] top right extension tab)\n\n(b)Download 'soulify.chrome.extension.zip' file, and extract to desktop.\n\n(1)On extension tab, select [Load unpacked extension], and navigate to 'soulify.chrome.extension' folder. Add to chrome, and you are done!\n\n(2)On any site, like youtube, right click on any empty space on video page, then 'soulify' active video!\n\n\n(3)Supported videos?\nyoutube,veoh,vimeo,dailymotion,metacafe,videobash";
+			var welcomeWidgetTitleZero = "Soulify browser extension 1.0.0.0\n(a)Go to tools -> extensions in chrome.\nEnable developer mode (select checkbox [Developer mode] top right extension tab)\n\n(b)Download 'soulify.chrome.extension.zip' file, and extract to desktop.\n\n(1)On extension tab, select [Load unpacked extension], and navigate to 'soulify.chrome.extension' folder. Add to chrome, and you are done!\n\n(2)On any site, like youtube, right click on any empty space on video page, then 'soulify' active video!\n\n\n(3)Supported videos?\nyoutube,veoh,vimeo,dailymotion,metacafe,videobash";
 			//set title
 			document.getElementById ( 'WelcomeWidgetAreaComponentThree' ).title = welcomeWidgetTitleZero;
 	}

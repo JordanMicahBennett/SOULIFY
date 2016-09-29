@@ -9,7 +9,7 @@ Soulify was written in pure html/css/javascript/php/ajax.
 
 LIVE?
 =======
-Indeed, soulify is live via http://www.soulify.tk/ (alias for http://www.soulify.honor.es/) 
+Indeed, soulify is live via http://www.soulify.honor.es/.
 
 
 

@@ -6,7 +6,6 @@ A scratch written, flavourful music/video archiver micro-social-network, allowin
 Soulify was written in pure html/css/javascript/php/ajax.
 
 
-=============================
 ![Alt text](https://github.com/JordanMicahBennett/SOULIFY/blob/master/source-code/data/images/captures/0.png?raw=true "default page")
 =============================
 ![Alt text](https://github.com/JordanMicahBennett/SOULIFY/blob/master/source-code/data/images/captures/1.png?raw=true "default page")

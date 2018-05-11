@@ -6,13 +6,6 @@ A flavourful music/video archiver micro-social-network, allowing users the abili
 Soulify was written in pure html/css/javascript/php/ajax.
 
 
-
-LIVE?
-=======
-Indeed, soulify is live via http://www.soulify.honor.es/.
-
-
-
 =============================
 ![Alt text](https://github.com/JordanMicahBennett/SOULIFY/blob/master/source-code/data/images/captures/0.png?raw=true "default page")
 =============================

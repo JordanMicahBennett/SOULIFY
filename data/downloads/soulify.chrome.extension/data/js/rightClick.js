@@ -1,13 +1,13 @@
 //author: Jordan Micah Bennett, Soulify 2014
 //All regular expression routines, all other code written via aforesaid author, Jordan, via GoogleChromeExtension API___
-//Allows users to 'soulify' content to there profile, from any website, through the utilization of cookies via source website http://soulify.tk which is an alias for http://soulify.rf.gd
+//Allows users to 'soulify' content to there profile, from any website, through the utilization of cookies via source website https://soulify.tk which is an alias for https://soulify.rf.gd
 
 //global variables
 function generateSoulifyActionResponse ( data, dataSource )
 {
 	var browserSoulifyActionContentStream = data;
 	var browserSoulifyActionContentSource = dataSource; 
-	window.open('http://soulify.rf.gd/data/phps/_php.soulify.php?soulificationContent='+browserSoulifyActionContentStream+'&soulificationSource='+browserSoulifyActionContentSource,'popup','width=512,height=614');
+	window.open('https://soulify.rf.gd/data/phps/_php.soulify.php?soulificationContent='+browserSoulifyActionContentStream+'&soulificationSource='+browserSoulifyActionContentSource,'popup','width=512,height=614');
 }
 
 
@@ -31,22 +31,22 @@ chrome.contextMenus.create
 	/////////////////////////////////
 	//adult video hosting
 	/////////////////////////////////
-	var youtubeEmbedCore = 'http://www.youtube.com/embed/';
+	var youtubeEmbedCore = 'https://www.youtube.com/embed/';
 	var vimeoEmbedCore = 'https://player.vimeo.com/video/';
-	var veohEmbedCore = 'http://www.veoh.com/seriesplayer_embedded2.swf?permalinkId=wzmg-and-the-coot&isVlog=true&videoAutoPlay=0&id=TEMPORARY_VIDEO_ID&player=channelembedded/';
-	var dailymotionEmbedCore = 'http://www.dailymotion.com/embed/video/';
-	var metacafeEmbedCore = 'http://www.metacafe.com/fplayer/TEMPORARY_VIDEO_ID.swf'; //i guesed this one lol
-	var videobashEmbedCore = 'http://www.videobash.com/embed/';
+	var veohEmbedCore = 'https://www.veoh.com/seriesplayer_embedded2.swf?permalinkId=wzmg-and-the-coot&isVlog=true&videoAutoPlay=0&id=TEMPORARY_VIDEO_ID&player=channelembedded/';
+	var dailymotionEmbedCore = 'https://www.dailymotion.com/embed/video/';
+	var metacafeEmbedCore = 'https://www.metacafe.com/fplayer/TEMPORARY_VIDEO_ID.swf'; //i guesed this one lol
+	var videobashEmbedCore = 'https://www.videobash.com/embed/';
 
 	/////////////////////////////////
 	//adult video hosting
 	/////////////////////////////////
-	var pornhubEmbedCore = 'http://ph-static.phncdn.com/flash/embed_player_v1.3.swf?options=http://www.pornhub.com/embed_player.php?id=';
-	var redtubeEmbedCore = 'http://embed.redtube.com/player/?id=';
-	var xvideosEmbedCore = 'http://flashservice.xvideos.com/embedframe/';
-	var xhamsterEmbedCore = 'http://xhamster.com/xembed.php?video=TEMPORARY_VIDEO_ID';
-	var youpornEmbedCore = 'http://www.youporn.com/embed/';
-	var porntubeEmbedCore = 'http://embed.porntube.com/'; //i totally guessed this one worse than the previous guessess...and what's scary, it's one guess...
+	var pornhubEmbedCore = 'https://ph-static.phncdn.com/flash/embed_player_v1.3.swf?options=https://www.pornhub.com/embed_player.php?id=';
+	var redtubeEmbedCore = 'https://embed.redtube.com/player/?id=';
+	var xvideosEmbedCore = 'https://flashservice.xvideos.com/embedframe/';
+	var xhamsterEmbedCore = 'https://xhamster.com/xembed.php?video=TEMPORARY_VIDEO_ID';
+	var youpornEmbedCore = 'https://www.youporn.com/embed/';
+	var porntubeEmbedCore = 'https://embed.porntube.com/'; //i totally guessed this one worse than the previous guessess...and what's scary, it's one guess...
 	
 	function getVideoEmbedStream ( url )
 	{

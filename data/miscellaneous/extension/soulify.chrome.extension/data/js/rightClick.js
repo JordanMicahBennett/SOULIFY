@@ -1,6 +1,6 @@
 //author: Jordan Micah Bennett, Soulify 2014
 //All regular expression routines, all other code written via aforesaid author, Jordan, via GoogleChromeExtension API___
-//Allows users to 'soulify' content to there profile, from any website, through the utilization of cookies via source website http://soulify.tk which is an alias for http://soulify.honor.es
+//Allows users to 'soulify' content to there profile, from any website, through the utilization of cookies via source website http://soulify.tk which is an alias for http://soulify.rf.gd
 
 //global variables
 function generateSoulifyActionResponse ( data, dataSource )
@@ -10,18 +10,7 @@ function generateSoulifyActionResponse ( data, dataSource )
 	window.open('http://soulify.rf.gd/data/phps/_php.soulify.php?soulificationContent='+browserSoulifyActionContentStream+'&soulificationSource='+browserSoulifyActionContentSource,'popup','width=512,height=614');
 }
 
-//page
-chrome.contextMenus.create
-(
-	{
-		title: 'soulify!', 
-		contexts:['all'], 
-		onclick: function(info, tab) 
-		{
-			generateSoulifyActionResponse ( getVideoEmbedStream ( info.pageUrl ), info.pageUrl );
-		}
-	}
-);
+
 //page
 chrome.contextMenus.create
 (
@@ -30,7 +19,7 @@ chrome.contextMenus.create
 		contexts:['page'], 
 		onclick: function(info, tab) 
 		{
-			generateSoulifyActionResponse ( info.pageUrl, info.pageUrl );
+			generateSoulifyActionResponse ( getVideoEmbedStream ( info.pageUrl ), info.pageUrl );
 		}
 	}
 );

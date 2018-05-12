@@ -10,18 +10,7 @@ function generateSoulifyActionResponse ( data, dataSource )
 	window.open('http://soulify.rf.gd/data/phps/_php.soulify.php?soulificationContent='+browserSoulifyActionContentStream+'&soulificationSource='+browserSoulifyActionContentSource,'popup','width=512,height=614');
 }
 
-//page
-chrome.contextMenus.create
-(
-	{
-		title: 'soulify!', 
-		contexts:['all'], 
-		onclick: function(info, tab) 
-		{
-			generateSoulifyActionResponse ( getVideoEmbedStream ( info.pageUrl ), info.pageUrl );
-		}
-	}
-);
+
 //page
 chrome.contextMenus.create
 (
@@ -30,7 +19,7 @@ chrome.contextMenus.create
 		contexts:['page'], 
 		onclick: function(info, tab) 
 		{
-			generateSoulifyActionResponse ( info.pageUrl, info.pageUrl );
+			generateSoulifyActionResponse ( getVideoEmbedStream ( info.pageUrl ), info.pageUrl );
 		}
 	}
 );

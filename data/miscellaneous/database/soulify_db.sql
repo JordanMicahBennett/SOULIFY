@@ -1,12 +1,11 @@
-
 -- phpMyAdmin SQL Dump
--- version 3.5.2.2
+-- version 3.5.8.2
 -- http://www.phpmyadmin.net
 --
--- Host: localhost
--- Generation Time: Nov 16, 2014 at 12:50 PM
--- Server version: 5.1.69
--- PHP Version: 5.2.17
+-- Host: sql113.epizy.com
+-- Generation Time: May 11, 2018 at 11:03 PM
+-- Server version: 5.6.35-81.0
+-- PHP Version: 5.3.3
 
 SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -18,7 +17,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8 */;
 
 --
--- Database: `u455509233_soul`
+-- Database: `epiz_22066031_db`
 --
 
 -- --------------------------------------------------------
@@ -69,7 +68,10 @@ INSERT INTO `GenreMoods` (`UserEmail`, `MoodString`) VALUES
 ('stone@gmail.com', 'african:default,blues:default,comedy:default,country:default,dancehall:default,electronic:default,folk:default,heavymetal:default,hiphop:default,jazz:default'),
 ('1', 'african:default,blues:default,comedy:default,country:default,dancehall:default,electronic:default,folk:default,heavymetal:default,hiphop:default,jazz:default'),
 ('2', 'african:default,blues:default,comedy:default,country:default,dancehall:default,electronic:default,folk:default,heavymetal:default,hiphop:default,jazz:default'),
-('3', 'african:default,blues:default,comedy:default,country:default,dancehall:default,electronic:default,folk:default,heavymetal:default,hiphop:default,jazz:default');
+('3', 'african:default,blues:default,comedy:default,country:default,dancehall:default,electronic:default,folk:default,heavymetal:default,hiphop:default,jazz:default'),
+('jordan@gmail.com', 'african:default,blues:default,comedy:default,country:default,dancehall:default,electronic:default,folk:default,heavymetal:default,hiphop:default,jazz:default'),
+('69', 'african:default,blues:default,comedy:default,country:default,dancehall:default,electronic:default,folk:default,heavymetal:default,hiphop:default,jazz:default'),
+('jordan@gmail.com', 'african:default,blues:default,comedy:default,country:default,dancehall:default,electronic:default,folk:default,heavymetal:default,hiphop:default,jazz:default');
 
 -- --------------------------------------------------------
 
@@ -92,8 +94,9 @@ CREATE TABLE IF NOT EXISTS `Genre_African` (
 --
 
 INSERT INTO `Genre_African` (`UserEmail`, `Title`, `Description`, `Source`, `Stream`, `DateAdded`, `PublicationStatus`) VALUES
-('jordanmicahbennett@gmail.com', 'Seether - Remedy', ' Seether - Remedy', 'https://www.youtube.com/watch?v=FZLILV18ut8', 'http://www.youtube.com/embed/FZLILV18ut8', '2014-07-24 23:00:17', 'public'),
-('jordanmicahbennett@gmail.com', 'Drowning Pool - Tear Away', 'Drowning Pool - Tear Away ', 'https://www.youtube.com/watch?v=gCSs5QggRUk', 'http://www.youtube.com/embed/gCSs5QggRUk', '2014-07-24 23:37:24', 'public');
+('jordanmicahbennett@gmail.com', 'Seether - Remedy', ' Seether - Remedy', 'https://www.youtube.com/watch?v=FZLILV18ut8', 'https://www.youtube.com/embed/FZLILV18ut8', '2014-07-24 23:00:17', 'public'),
+('jordanmicahbennett@gmail.com', 'Drowning Pool - Tear Away', 'Drowning Pool - Tear Away ', 'https://www.youtube.com/watch?v=gCSs5QggRUk', 'https://www.youtube.com/embed/gCSs5QggRUk', '2014-07-24 23:37:24', 'public'),
+('jordan@gmail.com', 'Cog Sci', ' ', 'https://www.youtube.com/watch?v=YUVLgccVi54', 'https://www.youtube.com/embed/YUVLgccVi54', '2018-05-11 22:55:08', 'public');
 
 -- --------------------------------------------------------
 
@@ -116,7 +119,7 @@ CREATE TABLE IF NOT EXISTS `Genre_Blues` (
 --
 
 INSERT INTO `Genre_Blues` (`UserEmail`, `Title`, `Description`, `Source`, `Stream`, `DateAdded`, `PublicationStatus`) VALUES
-('jordanmicahbennett@gmail.com', 'Drowning Pool - Tear Away', 'Drowning Pool - Tear Away ', 'https://www.youtube.com/watch?v=gCSs5QggRUk', 'http://www.youtube.com/embed/gCSs5QggRUk', '2014-07-24 23:37:41', 'public');
+('jordanmicahbennett@gmail.com', 'Drowning Pool - Tear Away', 'Drowning Pool - Tear Away ', 'https://www.youtube.com/watch?v=gCSs5QggRUk', 'https://www.youtube.com/embed/gCSs5QggRUk', '2014-07-24 23:37:41', 'public');
 
 -- --------------------------------------------------------
 
@@ -139,7 +142,7 @@ CREATE TABLE IF NOT EXISTS `Genre_Comedy` (
 --
 
 INSERT INTO `Genre_Comedy` (`UserEmail`, `Title`, `Description`, `Source`, `Stream`, `DateAdded`, `PublicationStatus`) VALUES
-('jordanmicahbennett@gmail.com', 'Drowning Pool - Tear Away', 'Drowning Pool - Tear Away ', 'https://www.youtube.com/watch?v=gCSs5QggRUk', 'http://www.youtube.com/embed/gCSs5QggRUk', '2014-07-24 23:37:48', 'public');
+('jordanmicahbennett@gmail.com', 'Drowning Pool - Tear Away', 'Drowning Pool - Tear Away ', 'https://www.youtube.com/watch?v=gCSs5QggRUk', 'https://www.youtube.com/embed/gCSs5QggRUk', '2014-07-24 23:37:48', 'public');
 
 -- --------------------------------------------------------
 
@@ -162,7 +165,7 @@ CREATE TABLE IF NOT EXISTS `Genre_Country` (
 --
 
 INSERT INTO `Genre_Country` (`UserEmail`, `Title`, `Description`, `Source`, `Stream`, `DateAdded`, `PublicationStatus`) VALUES
-('jordanmicahbennett@gmail.com', 'Drowning Pool - Tear Away', 'Drowning Pool - Tear Away ', 'https://www.youtube.com/watch?v=gCSs5QggRUk', 'http://www.youtube.com/embed/gCSs5QggRUk', '2014-07-24 23:37:59', 'public');
+('jordanmicahbennett@gmail.com', 'Drowning Pool - Tear Away', 'Drowning Pool - Tear Away ', 'https://www.youtube.com/watch?v=gCSs5QggRUk', 'https://www.youtube.com/embed/gCSs5QggRUk', '2014-07-24 23:37:59', 'public');
 
 -- --------------------------------------------------------
 
@@ -185,9 +188,9 @@ CREATE TABLE IF NOT EXISTS `Genre_Dancehall` (
 --
 
 INSERT INTO `Genre_Dancehall` (`UserEmail`, `Title`, `Description`, `Source`, `Stream`, `DateAdded`, `PublicationStatus`) VALUES
-('jordanmicahbennett@gmail.com', 'Drowning Pool - Tear Away', 'Drowning Pool - Tear Away ', 'https://www.youtube.com/watch?v=gCSs5QggRUk', 'http://www.youtube.com/embed/gCSs5QggRUk', '2014-07-24 23:38:06', 'public'),
-('jordanmicahbennett@gmail.com', 'Drowning Pool - Tear Away', 'Drowning Pool - Tear Away ', 'https://www.youtube.com/watch?v=gCSs5QggRUk', 'http://www.youtube.com/embed/gCSs5QggRUk', '2014-07-24 23:38:14', 'public'),
-('natreve.ag20@gmail.com', 'efafdfda', 'dvssdfs ', 'https://www.youtube.com/watch?v=KTjF1CjTOi4', 'http://www.youtube.com/embed/KTjF1CjTOi4', '2014-07-28 14:50:59', 'public');
+('jordanmicahbennett@gmail.com', 'Drowning Pool - Tear Away', 'Drowning Pool - Tear Away ', 'https://www.youtube.com/watch?v=gCSs5QggRUk', 'https://www.youtube.com/embed/gCSs5QggRUk', '2014-07-24 23:38:06', 'public'),
+('jordanmicahbennett@gmail.com', 'Drowning Pool - Tear Away', 'Drowning Pool - Tear Away ', 'https://www.youtube.com/watch?v=gCSs5QggRUk', 'https://www.youtube.com/embed/gCSs5QggRUk', '2014-07-24 23:38:14', 'public'),
+('natreve.ag20@gmail.com', 'efafdfda', 'dvssdfs ', 'https://www.youtube.com/watch?v=KTjF1CjTOi4', 'https://www.youtube.com/embed/KTjF1CjTOi4', '2014-07-28 14:50:59', 'public');
 
 -- --------------------------------------------------------
 
@@ -226,7 +229,7 @@ CREATE TABLE IF NOT EXISTS `Genre_Folk` (
 --
 
 INSERT INTO `Genre_Folk` (`UserEmail`, `Title`, `Description`, `Source`, `Stream`, `DateAdded`, `PublicationStatus`) VALUES
-('jordanmicahbennett@gmail.com', 'Drowning Pool - Tear Away', 'Drowning Pool - Tear Away ', 'https://www.youtube.com/watch?v=gCSs5QggRUk', 'http://www.youtube.com/embed/gCSs5QggRUk', '2014-07-24 23:38:23', 'public');
+('jordanmicahbennett@gmail.com', 'Drowning Pool - Tear Away', 'Drowning Pool - Tear Away ', 'https://www.youtube.com/watch?v=gCSs5QggRUk', 'https://www.youtube.com/embed/gCSs5QggRUk', '2014-07-24 23:38:23', 'public');
 
 -- --------------------------------------------------------
 
@@ -249,11 +252,11 @@ CREATE TABLE IF NOT EXISTS `Genre_HeavyMetal` (
 --
 
 INSERT INTO `Genre_HeavyMetal` (`UserEmail`, `Title`, `Description`, `Source`, `Stream`, `DateAdded`, `PublicationStatus`) VALUES
-('jordanmicahbennett@gmail.com', 'Seether - Tied My Hands (Live)', ' Seether - Tied My Hands (Live)', 'https://www.youtube.com/watch?v=pULe7-6yRo4', 'http://www.youtube.com/embed/pULe7-6yRo4', '2014-07-23 08:25:36', 'public'),
-('jordanmicahbennett@gmail.com', 'Paramore: Decode', 'Paramore: Decode, cool', 'https://www.youtube.com/watch?v=RvnkAtWcKYg', 'http://www.youtube.com/embed/RvnkAtWcKYg', '2014-07-23 08:52:56', 'public'),
-('jordanmicahbennett@gmail.com', 'Drowning Pool - Tear Away', 'Drowning Pool - Tear Away ', 'https://www.youtube.com/watch?v=gCSs5QggRUk', 'http://www.youtube.com/embed/gCSs5QggRUk', '2014-07-24 23:38:30', 'public'),
-('jordanmicahbennett@gmail.com', 'Drowning Pool - Tear Away', 'Drowning Pool - Tear Away ', 'https://www.youtube.com/watch?v=gCSs5QggRUk', 'http://www.youtube.com/embed/gCSs5QggRUk', '2014-07-24 23:38:37', 'public'),
-('jordanmicahbennett@gmail.com', 'Seether - Breakdown', 'Seether - Breakdown ', 'https://www.youtube.com/watch?v=BDKM181eTsM', 'http://www.youtube.com/embed/BDKM181eTsM', '2014-08-20 04:51:29', 'public');
+('jordanmicahbennett@gmail.com', 'Seether - Tied My Hands (Live)', ' Seether - Tied My Hands (Live)', 'https://www.youtube.com/watch?v=pULe7-6yRo4', 'https://www.youtube.com/embed/pULe7-6yRo4', '2014-07-23 08:25:36', 'public'),
+('jordanmicahbennett@gmail.com', 'Paramore: Decode', 'Paramore: Decode, cool', 'https://www.youtube.com/watch?v=RvnkAtWcKYg', 'https://www.youtube.com/embed/RvnkAtWcKYg', '2014-07-23 08:52:56', 'public'),
+('jordanmicahbennett@gmail.com', 'Drowning Pool - Tear Away', 'Drowning Pool - Tear Away ', 'https://www.youtube.com/watch?v=gCSs5QggRUk', 'https://www.youtube.com/embed/gCSs5QggRUk', '2014-07-24 23:38:30', 'public'),
+('jordanmicahbennett@gmail.com', 'Drowning Pool - Tear Away', 'Drowning Pool - Tear Away ', 'https://www.youtube.com/watch?v=gCSs5QggRUk', 'https://www.youtube.com/embed/gCSs5QggRUk', '2014-07-24 23:38:37', 'public'),
+('jordanmicahbennett@gmail.com', 'Seether - Breakdown', 'Seether - Breakdown ', 'https://www.youtube.com/watch?v=BDKM181eTsM', 'https://www.youtube.com/embed/BDKM181eTsM', '2014-08-20 04:51:29', 'public');
 
 -- --------------------------------------------------------
 
@@ -276,7 +279,7 @@ CREATE TABLE IF NOT EXISTS `Genre_HipHop` (
 --
 
 INSERT INTO `Genre_HipHop` (`UserEmail`, `Title`, `Description`, `Source`, `Stream`, `DateAdded`, `PublicationStatus`) VALUES
-('jordanmicahbennett@gmail.com', 'Drowning Pool - Tear Away', 'Drowning Pool - Tear Away ', 'https://www.youtube.com/watch?v=gCSs5QggRUk', 'http://www.youtube.com/embed/gCSs5QggRUk', '2014-07-24 23:38:45', 'public');
+('jordanmicahbennett@gmail.com', 'Drowning Pool - Tear Away', 'Drowning Pool - Tear Away ', 'https://www.youtube.com/watch?v=gCSs5QggRUk', 'https://www.youtube.com/embed/gCSs5QggRUk', '2014-07-24 23:38:45', 'public');
 
 -- --------------------------------------------------------
 
@@ -299,12 +302,12 @@ CREATE TABLE IF NOT EXISTS `Genre_Jazz` (
 --
 
 INSERT INTO `Genre_Jazz` (`UserEmail`, `Title`, `Description`, `Source`, `Stream`, `DateAdded`, `PublicationStatus`) VALUES
-('jordanmicahbennett@gmail.com', 'The Jolly Boys - Hangging on the telephone - track 5 - Great Expectations', 'The Jolly Boys - Hangging on the telephone - track 5 - Great Expectations ', 'https://www.youtube.com/watch?v=Xmv74qMkuRI', 'http://www.youtube.com/embed/Xmv74qMkuRI', '2014-07-23 02:29:37', 'public'),
-('jordanmicahbennett@gmail.com', 'The Jolly Boys - Blue Monday (New Order cover)', ' The Jolly Boys - Blue Monday (New Order cover)', 'https://www.youtube.com/watch?v=70YF-hNymGE', 'http://www.youtube.com/embed/70YF-hNymGE', '2014-07-23 07:27:40', 'public'),
-('jordanmicahbennett@gmail.com', 'The Passenger - The Jolly Boys', 'The Passenger - The Jolly Boys ', 'https://www.youtube.com/watch?v=z1KsFiPJIRg', 'http://www.youtube.com/embed/z1KsFiPJIRg', '2014-07-23 07:54:11', 'public'),
-('jordanmicahbennett@gmail.com', 'Drowning Pool - Tear Away', 'Drowning Pool - Tear Away ', 'https://www.youtube.com/watch?v=gCSs5QggRUk', 'http://www.youtube.com/embed/gCSs5QggRUk', '2014-07-24 23:38:55', 'public'),
-('', 'Untitled', ' ', 'http://www.youtube.com/watch?v=xg5YN3LAGw4', 'http://www.youtube.com/embed/xg5YN3LAGw4', '2014-07-23 19:50:03', 'public'),
-('jordanmicahbennett@gmail.com', 'Seether - Remedy', 'Seether - Remedy ', 'https://www.youtube.com/watch?v=FZLILV18ut8', 'http://www.youtube.com/embed/FZLILV18ut8', '2014-07-24 00:50:51', 'public'),
+('jordanmicahbennett@gmail.com', 'The Jolly Boys - Hangging on the telephone - track 5 - Great Expectations', 'The Jolly Boys - Hangging on the telephone - track 5 - Great Expectations ', 'https://www.youtube.com/watch?v=Xmv74qMkuRI', 'https://www.youtube.com/embed/Xmv74qMkuRI', '2014-07-23 02:29:37', 'public'),
+('jordanmicahbennett@gmail.com', 'The Jolly Boys - Blue Monday (New Order cover)', ' The Jolly Boys - Blue Monday (New Order cover)', 'https://www.youtube.com/watch?v=70YF-hNymGE', 'https://www.youtube.com/embed/70YF-hNymGE', '2014-07-23 07:27:40', 'public'),
+('jordanmicahbennett@gmail.com', 'The Passenger - The Jolly Boys', 'The Passenger - The Jolly Boys ', 'https://www.youtube.com/watch?v=z1KsFiPJIRg', 'https://www.youtube.com/embed/z1KsFiPJIRg', '2014-07-23 07:54:11', 'public'),
+('jordanmicahbennett@gmail.com', 'Drowning Pool - Tear Away', 'Drowning Pool - Tear Away ', 'https://www.youtube.com/watch?v=gCSs5QggRUk', 'https://www.youtube.com/embed/gCSs5QggRUk', '2014-07-24 23:38:55', 'public'),
+('', 'Untitled', ' ', 'http://www.youtube.com/watch?v=xg5YN3LAGw4', 'https://www.youtube.com/embed/xg5YN3LAGw4', '2014-07-23 19:50:03', 'public'),
+('jordanmicahbennett@gmail.com', 'Seether - Remedy', 'Seether - Remedy ', 'https://www.youtube.com/watch?v=FZLILV18ut8', 'https://www.youtube.com/embed/FZLILV18ut8', '2014-07-24 00:50:51', 'public'),
 ('stone@gmail.com', 'wrak', 'gfhjb ', 'https://www.youtube.com/watch?v=uwswhoKfkmM', 'https://www.youtube.com/watch?v=uwswhoKfkmM', '2014-09-09 17:25:09', 'public');
 
 -- --------------------------------------------------------
@@ -333,7 +336,10 @@ INSERT INTO `LastMood` (`UserEmail`, `Title`) VALUES
 ('stone@gmail.com', 'excited'),
 ('1', 'default'),
 ('2', 'default'),
-('3', 'default');
+('3', 'default'),
+('jordan@gmail.com', 'undefined'),
+('69', 'default'),
+('jordan@gmail.com', 'undefined');
 
 -- --------------------------------------------------------
 
@@ -403,7 +409,8 @@ INSERT INTO `Users` (`UserEmail`, `UserName`, `UserPassword`, `UserTitle`, `User
 ('stone@gmail.com', 'antoinette stone', 'stone', '', '1', '1', '1', 'data/images/users/stone@gmail.com/profile.picture.png'),
 ('1', '1', '1', '1', '1', '1', '1', 'data/images/users/1/profile.picture.png'),
 ('2', '2', '2', '2', '1', '1', '1', 'data/images/users/2/profile.picture.png'),
-('3', '3', '3', '3', '1', '1', '1', 'data/images/users/3/profile.picture.png');
+('3', '3', '3', '3', '1', '1', '1', 'data/images/users/3/profile.picture.png'),
+('jordan@gmail.com', 'Jordan', 'admin', 'coder, ai researcher', '1', '1', '1', 'data/images/users/jordan@gmail.com/profile.picture.png');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;

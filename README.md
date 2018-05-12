@@ -39,7 +39,29 @@ RUNNING THE APP (OFFLINE)
 3. Adjust function "generateSoulifyActionResponse" in file  [soulify/data/downloads/soulify.chrome.extension/data/js/rightClick.js](https://github.com/JordanMicahBennett/SOULIFY/tree/master/data/downloads/soulify.chrome.extension/data/js/rightClick.js), by replacing "soulify.rf.gd" portion of url with whatever your localhost setting is, which is typically "https://localhost/<whatever you stored soulify as in xamp/htdocs>".
 
 
-WHAT CAN ONE DO WITH SOULIFY?
+USAGE, SOULIFYING A VIDEO 
+============================================
+
+1. Sign into grapple on [localhost/soulify](https://soulify.rf.gd).
+
+2. Find a video, and right click on any empty space on page where video is. You should see soulify option popup, with "soulify it!" command:
+
+![Alt text]( https://github.com/JordanMicahBennett/SOULIFY/blob/master/data/miscellaneous/screens/soulification_0.png "default page")
+
+3. Simply supply details to the popup, like a title etc:
+
+![Alt text]( https://github.com/JordanMicahBennett/SOULIFY/blob/master/data/miscellaneous/screens/soulification_1.png "default page")
+
+4. You should now see "soulified!" message on popup. 
+
+![Alt text]( https://github.com/JordanMicahBennett/SOULIFY/blob/master/data/miscellaneous/screens/soulification_2.png "default page")
+
+5. Closing popup, and reloading profile page, you will see the new image item in the appropriate "playlist section" you "soulified" your music video to.
+
+![Alt text]( https://github.com/JordanMicahBennett/SOULIFY/blob/master/data/miscellaneous/screens/soulification_3.png "default page")
+
+
+SUMMARY: WHAT CAN ONE DO WITH SOULIFY?
 =============================
 
 

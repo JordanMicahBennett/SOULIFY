@@ -1,8 +1,8 @@
-![Alt text](https://github.com/JordanMicahBennett/SOULIFY/blob/master/source-code/data/images/captures/0.png?raw=true "default page")
+![Alt text](https://github.com/JordanMicahBennett/SOULIFY/blob/master/data/miscellaneous/screens/1.png?raw=true "default page")
 =============================
-![Alt text](https://github.com/JordanMicahBennett/SOULIFY/blob/master/source-code/data/images/captures/1.png?raw=true "default page")
+![Alt text](https://github.com/JordanMicahBennett/SOULIFY/blob/master/data/miscellaneous/screens/0.png?raw=true "default page")
 =============================
-![Alt text](https://github.com/JordanMicahBennett/SOULIFY/blob/master/source-code/data/images/captures/2.png?raw=true "default page")
+![Alt text](https://github.com/JordanMicahBennett/SOULIFY/blob/master/data/miscellaneous/screens/2.png?raw=true "default page")
 =============================
 
 

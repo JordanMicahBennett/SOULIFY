@@ -42,7 +42,7 @@ RUNNING THE APP (OFFLINE)
 USAGE, SOULIFYING A VIDEO 
 ============================================
 
-1. Sign into soulify on [localhost/soulify](https://soulify.rf.gd).
+1. Sign into soulify on https://soulify.rf.gd.
 
 2. Find a video, and right click on any empty space on page where video is. You should see soulify option popup, with "soulify it!" command:
 

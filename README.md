@@ -38,7 +38,7 @@ RUNNING THE APP (OFFLINE)
 
 3. Adjust function "generateSoulifyActionResponse" in file  [soulify/data/downloads/soulify.chrome.extension/data/js/rightClick.js](https://github.com/JordanMicahBennett/SOULIFY/tree/master/data/downloads/soulify.chrome.extension/data/js/rightClick.js), by replacing "soulify.rf.gd" portion of url with whatever your localhost setting is, which is typically "https://localhost/<whatever you stored soulify as in xamp/htdocs>".
 
-4. Additionally, adjust variable "$serverHomeUrl" in file [soulify/data/phps/_module.new.entry.php](https://github.com/JordanMicahBennett/SOULIFY/blob/master/data/phps/_php.new.entry.php/_module.new.entry.php) by replacing serverHomeUrl with whatever your localhost server settings are. (If this is not done properly, remember that your test users won't be able to upload profile pictures to your local copy of the soulify social network!)
+4. Additionally, adjust variable "$serverHomeUrl" in file [soulify/data/phps/_module.new.entry.php](https://github.com/JordanMicahBennett/SOULIFY/blob/master/data/phps/_php.new.entry.php) by replacing serverHomeUrl with whatever your localhost server settings are. (If this is not done properly, remember that your test users won't be able to upload profile pictures to your local copy of the soulify social network!)
 
 
 USAGE, SOULIFYING A VIDEO 

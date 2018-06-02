@@ -14,7 +14,7 @@ Soulify was written in pure html/css/javascript/php/ajax.
 
 RUNNING THE APP 
 =======
-1. Soulify is live on https://soulify.rf.gd. 
+1. Soulify is live on http://soulify.rf.gd. 
 
 2. Add soulify extension to your chrome browser:
 

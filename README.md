@@ -44,7 +44,7 @@ RUNNING THE APP (OFFLINE)
 USAGE, SOULIFYING A VIDEO 
 ============================================
 
-1. Sign into soulify on https://soulify.rf.gd.
+1. Sign into soulify on http://soulify.rf.gd.
 
 2. Find a video, and right click on any empty space on page where video is. You should see soulify option popup, with "soulify it!" command:
 
@@ -67,7 +67,7 @@ SUMMARY: WHAT CAN ONE DO WITH SOULIFY?
 =============================
 
 
-  a. Using google chrome, after signing up, one may 'soulify' videos via most sites, to one's profile of music categories of archives on [https://soulify.rf.gd](soulify).
+  a. Using google chrome, after signing up, one may 'soulify' videos via most sites, to one's profile of music categories of archives on http://soulify.rf.gd.
 
   b. Soulify allows one to attach flavours by essentially colouring one's music categories, by mood colours.
 
